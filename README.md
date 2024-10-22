@@ -2,7 +2,7 @@
 
 A modern, interactive chatbot application built with ReactJS that enables users to have conversations with an AI model and provide multi-dimensional feedback. The application features a clean, intuitive interface with comprehensive feedback mechanisms and conversation management.
 
-![Chat Interface](public/screenshots/chat-interface.png)
+![Chat Interface](https://raw.githubusercontent.com/milindkusahu/BotAI-Chatbot/refs/heads/main/BotAI%20Chatbot%20Demo.png)
 
 ## Features
 
@@ -16,7 +16,7 @@ A modern, interactive chatbot application built with ReactJS that enables users 
 - Conversation history management
 - Feedback analytics dashboard with filtering capabilities
 
-![Feedback Dashboard](public/screenshots/feedback-dashboard.png)
+![Feedback Dashboard](https://raw.githubusercontent.com/milindkusahu/BotAI-Chatbot/refs/heads/main/BotAI%20Chatbot%20Feedback%20Demo.png)
 
 ### Additional Features
 
@@ -28,7 +28,7 @@ A modern, interactive chatbot application built with ReactJS that enables users 
 
 ## Demo
 
-![Dark Mode](public/screenshots/dark-mode.png)
+![Dark Mode](https://raw.githubusercontent.com/milindkusahu/BotAI-Chatbot/refs/heads/main/BotAI%20Chatbot%20DarkMode%20Demo.png)
 *Dark Mode View with Chat History*
 
 ## Tech Stack
@@ -150,7 +150,8 @@ yarn dev
 - Intuitive navigation between different views
 - Clear visual hierarchy in feedback dashboard
 
-![Mobile View](public/screenshots/mobile-view.png)
+![Mobile View](https://raw.githubusercontent.com/milindkusahu/BotAI-Chatbot/refs/heads/main/BotAI%20Chatbot%20Mobile%20Demo.png)
+
 *Responsive Mobile View*
 
 ### User Experience
@@ -199,7 +200,7 @@ yarn dev
 
 ## Deployment
 
-The application is deployed on Vercel and can be accessed at: [BotAI Chatbot](https://bot-ai-chatbot.vercel.app/)
+The application is deployed on Vercel and can be accessed at: [BotAI Chatbot](https://bot-ai-chatbot-five.vercel.app/)
 
 ## Contributing
 
@@ -207,4 +208,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
