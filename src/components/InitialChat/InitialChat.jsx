@@ -38,7 +38,7 @@ export default function InitialChat({ generateResponse }) {
       </Stack>
       <Grid container spacing={{ xs: 1, md: 3 }}>
         {initialData.map((item) => (
-          <Grid item key={item.heading} xs={12} md={6}>
+          <Grid key={item.heading} size={{ xs: 12, md: 6 }}>
             <Card
               heading={item.heading}
               subtext={item.subtext}

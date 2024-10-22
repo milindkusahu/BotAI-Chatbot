@@ -19,7 +19,6 @@ export default function Home() {
   const { chat, setChat } = useOutletContext();
   const { mode } = useContext(ThemeContext);
 
-  // GENERATING AI RESPONSE
   const generateResponse = (input) => {
     const response = data.find(
       (item) => input.toLowerCase() == item.question.toLowerCase()
@@ -50,7 +49,6 @@ export default function Home() {
     setChatId((prev) => prev + 2);
   };
 
-  //AUTOSCROLL TO LAST ELEMENT
   useEffect(() => {
     listRef.current?.lastElementChild?.scrollIntoView();
   }, [scrollToBottom]);

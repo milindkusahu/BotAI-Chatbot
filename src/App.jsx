@@ -32,9 +32,7 @@ function App() {
           }}
         >
           <Grid
-            item
-            xs={12}
-            md={2.5}
+            size={{ xs: 12, md: 2.5 }}
             sx={{
               bgcolor: "primary.light",
               "@media (max-width:800px)": {
@@ -50,7 +48,7 @@ function App() {
           >
             <Sidebar setChat={setChat} closeMenu={() => setMenuOpen(false)} />
           </Grid>
-          <Grid item xs={12} md={9.5}>
+          <Grid size={{ xs: 12, md: 9.5 }}>
             <Outlet
               context={{
                 chat: chat,
