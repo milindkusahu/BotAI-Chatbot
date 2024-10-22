@@ -7,7 +7,7 @@ import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import { useEffect, useState } from "react";
 import { format } from "date-fns";
 
-export default function ChattingCard({
+export default function ChatCard({
   details,
   showFeedbackModal,
   updateChat,

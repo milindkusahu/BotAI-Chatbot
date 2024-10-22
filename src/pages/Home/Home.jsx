@@ -1,7 +1,7 @@
 import { Stack } from "@mui/material";
 import InitialChat from "../../components/InitialChat/InitialChat";
 import ChatInput from "../../components/ChatInput/ChatInput";
-import ChattingCard from "../../components/ChatCard/ChatCard";
+import ChatCard from "../../components/ChatCard/ChatCard";
 import FeedbackModal from "../../components/FeedbackModal/FeedbackModal";
 import { useEffect, useRef, useState } from "react";
 import data from "../../data/sampleData.json";
@@ -93,7 +93,7 @@ export default function Home() {
           ref={listRef}
         >
           {chat.map((item, index) => (
-            <ChattingCard
+            <ChatCard
               details={item}
               key={index}
               updateChat={setChat}
